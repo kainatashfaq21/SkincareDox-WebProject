@@ -1,0 +1,607 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+}
+
+.nav-item{
+    margin: 20px;
+}
+
+.navbar-brand{
+    padding-top: 18px;
+    margin-left: 20px;
+}
+
+.navbar-nav{
+    margin: -15px;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    font-size: 20px;
+    color: black;
+}
+
+.dropdown-menu{
+    z-index: 100;
+    position: relative;
+}
+
+.user{
+    font-size: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    width: 70px;
+}
+
+.space{
+    width: 100%;
+    height: 100px;
+}
+
+.space h3{
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.thumbnail{
+    margin: 10px;
+}
+
+.thumbnail image{
+    height: 17rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.thumbnail .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.thumbnail:hover .image img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.thumbnail:hover{
+    box-shadow: 0 2px 2px -2px rgb(104, 88, 88);    transition: all .5s ease-in-out;
+}
+
+.cart{
+    color: black;
+}
+
+.cart:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.star{
+    color: darkorange;
+    fill: darkorange;
+    
+}
+
+.caption p, span{
+    font-size: 15px;
+}
+
+.caption h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#btnn{
+    height: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.btnn{
+    background-color: rgb(236, 166, 141);
+    color: black;
+    font-size: 18px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnn:hover{
+    background-color: rgb(141, 71, 82);
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+.follow{
+    width: 100%;
+    height: 150px;
+}
+
+.follow h3{
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    padding-top: 60px;
+}
+
+.signup{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(238, 184, 165);
+}
+
+.signup h3{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signup p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+form{
+    text-align: center;
+}
+
+#em{
+    width: 25%;
+    height: 35px;
+}
+
+.button{
+    width: 80px;
+    height: 33px;
+    margin-left: 10px;
+}
+
+.button p{
+    margin-top: -10px;
+    font-size: 10px;
+}
+
+.footer{
+    background-color: rgba(17, 16, 16, 0.842);
+    margin: 0px;
+    padding: 0px;
+    color: rgb(240, 231, 231);
+    font-size: 15px;
+}
+
+.lg{
+    font-size: 5rem;
+    color: blue;
+}
+
+.f{
+     color: gray;
+}
+
+.phone{
+    font-size: 15px;
+}
+
+.footer a{
+    color: rgb(240, 231, 231);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+
+
+} 
+
+.footer a:hover{
+    color: orange;
+    transition: linear 0.5s all;
+}
+
+.footer h3
+{
+    color: white;
+}
+
+.h3{
+    margin-top: -20px;
+}
+
+.ic{
+    font-size: 1.5rem;
+    color: gray;
+    padding: 7px;
+}
+
+.f:hover{
+    transition: linear 0.3s all;
+    color: white;
+}
+
+.t:hover{
+    transition: linear 0.3s all;
+    color: white;
+}
+
+.g:hover{
+    transition: linear 0.3s all;
+    color: white;
+}
+
+.p:hover{
+    transition: linear 0.3s all;
+    color: white;
+}
+
+.icon1{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    border-radius: 100%;
+    border: 1px solid gray;
+    padding: 7px;
+    margin: 5px;
+}
+
+.icon1:hover{
+    background-color:  #3b5998;
+    transition: linear 0.3s all;
+}
+
+.icon4{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    border-radius: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px; 
+}
+
+.icon4:hover{
+     background-color:  #c8232c;
+    transition: linear 0.3s all;
+}
+
+.icon2{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    border-radius: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.icon2:hover{
+    background-color: #00acee;
+    transition: linear 0.3s all;
+}
+
+.icon3{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    border-radius: 100%;
+    border: 1px solid rgb(141, 129, 129);
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.icon3:hover{
+     background-color: #db4a39;
+    transition: linear 0.3s all;
+}
+
+.orange{
+    color: rgb(245, 195, 104);
+}
+
+.orange:hover{
+    border-bottom: 1px solid orange;
+}
+
+.ft a:hover{
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.ft p{
+    text-align: justify;
+}
+
+.cr{
+    margin-left: -25px;
+}
+
+.login-form{
+    width: 51%;
+    height: 350px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+#gridCheck1{
+    margin-left: -80px;
+}
+
+.form-check-label{
+   margin-right: 300px;
+}
+
+.signin{
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    background-color: rgb(240, 154, 133);
+    margin-left: -450px;
+}
+
+.signin-text{
+    float: right;
+    margin-top: -60px;
+    margin-right: 250px;
+}
+
+.signin-text a{
+    color: black;
+    text-decoration: none;
+}
+
+.signin-text h5{
+    margin-right: 70px;
+}
+
+.sign-in{
+    margin-right: 200px;
+}
+.breadcrumb{
+    font-size: 20px;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#breadcrumb-item{
+    color: black;
+}
+
+#breadcrumb-item:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.skin-concern{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.skin-concern h2{
+    font-weight: bold;
+}
+
+.card{
+    border: 1px solid rgb(216, 200, 200);
+    float: left;
+    margin: 10px;
+}
+
+.card-body h5{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+	.card{
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+	.card{
+        margin-left: 90px;
+    }
+}
+
+.review{
+    margin: 20px;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.review .box-container .box{
+    border: 1px solid rgb(245, 218, 218);
+    text-align: justify;
+    padding:3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1rem;
+    line-height: 1.2;
+    color:rgb(138, 117, 117);
+}
+
+.review .box-container .box .user{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review .box-container .box h3{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:rgb(8, 8, 8);
+    text-align: center;
+}
+
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color:  rgb(233, 173, 62);
+}
+
+.stars{
+    text-align: center;
+
+}
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.signin-txt{
+    text-align: center;
+}
+
+.text{
+    color: black;
+    text-decoration: none;
+}
+
+.text:hover{
+    color: black;
+    text-decoration: none;
+}
